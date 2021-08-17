@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    letter-spacing: 1px;
+
+
+
+}
+
+html{
+    font-size: 15px;
+
+}
+.container{
+    max-width: 1100;
+    margin: 0 auto;
+    padding: 0 3rem;
+    margin-top: 5rem;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url(../image/profile.jpg);
+    background-position: 0 1000px;
+    background-size: 100% 100%;
+
+    
+}
+
+h1{
+    color: #131212;
+    font-size: 5rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+    margin-right: 5rem;
+
+}
+h2{
+    color: #777;
+    font-size: 4rem;
+    font-weight: 400;
+}
+.image{
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    size: inherit;
+    margin-right: 12rem;
+}
+p{
+    font-size: 1.5rem;
+    color:black;
+    margin-bottom: 5rem;
+    font-weight: 10;
+
+
+}
+.btn{
+    display:inline-block;
+    padding: 1rem 2rem;
+    background: #f6f6f6;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #398f51;
+    transition: background 0.5s;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+    margin-right: 3rem;
+
+
+
+}
+.btn:hover{
+    background: #dadada;
+
+
+}
